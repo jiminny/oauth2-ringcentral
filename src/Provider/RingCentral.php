@@ -79,7 +79,7 @@ class RingCentral extends AbstractProvider
      */
     public function getBaseAuthorizationUrl ()
     {
-        return null;
+        return $this->getBaseUrl() . '/oauth/authorize';
     }
 
     /**

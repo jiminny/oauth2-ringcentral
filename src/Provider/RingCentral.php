@@ -115,7 +115,7 @@ class RingCentral extends AbstractProvider
      */
     protected function getDefaultScopes ()
     {
-        return ['ReadAccounts'];
+        return [];
     }
 
     /**

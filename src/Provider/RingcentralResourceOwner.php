@@ -67,7 +67,7 @@ class RingcentralResourceOwner implements ResourceOwnerInterface
      */
     public function getEmail()
     {
-        return isset($this->response['email']) ? $this->response['email'] : '';
+        return isset($this->response['contact']['email']) ? $this->response['contact']['email'] : '';
     }
 
     /**

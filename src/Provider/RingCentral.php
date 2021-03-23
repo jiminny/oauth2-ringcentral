@@ -102,7 +102,7 @@ class RingCentral extends AbstractProvider
      */
     public function getResourceOwnerDetailsUrl (AccessToken $token)
     {
-        return $this->getBaseUrl() .  '/v' . $this->apiVersion . '/account/' . $token->getResourceOwnerId() . '/extension/~';
+        return $this->getBaseUrl() .  '/v' . $this->apiVersion . '/account/~/extension/~';
     }
 
     /**
